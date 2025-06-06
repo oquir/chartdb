@@ -25,6 +25,7 @@ export default defineConfig({
             ],
         }),
     ],
+    base: '/chartdb/',
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './src'),
